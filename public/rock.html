@@ -6,42 +6,46 @@
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
 
-  <link rel="stylesheet" href="/my_styles.css">
+  <!-- <link rel="stylesheet" href="/my_styles.css"> -->
+  <link rel="stylesheet" href="/bootstrap.css">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-
+<style>
+*{border: thin red solid 
+}
+</style>
 <body>
   <div class="container">
     <div class="row mb-medium">
-      <div class="one-third">
+      <div class="col-md-4">
         <a class="button" href="/rock">
           Play Rock
         </a>
       </div>
 
-      <div class="one-third">
+      <div class="col-md-4">
         <a class="button" href="/paper">
           Play Paper
         </a>
       </div>
 
-      <div class="one-third">
+      <div class="col-md4">
         <a class="button" href="/scissors">
           Play Scissors
         </a>
       </div>
     </div>
 
-    <div class="row mb-medium">
-      <div class="one-half">
-        <div class="player-card centered">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <div class="player-card text-center">
           <h2>
             <em>We</em> <strong>played</strong> <a href="https:/www.google.com">rock</a>!
           </h2>
         </div>
       </div>
 
-      <div class="one-half">
+      <div class="col-md-6">
         <div class="computer-card centered">
           <h2>
             They played paper!
@@ -50,8 +54,8 @@
       </div>
     </div>
 
-    <div class="row-center mb-medium">
-      <div class="two-thirds">
+    <div class="row mb-3">
+      <div class="col-md-8 offset-md-3">
         <div class="outcome-card centered">
           <h2>
             We lost!
@@ -60,8 +64,8 @@
       </div>
     </div>
 
-    <div class="row-center mb-medium">
-      <div class="full-width centered">
+    <div class="row-center mb-3">
+      <div class="col-md-12 centered">
         <a href="/">
           Rules
         </a>
